@@ -1,0 +1,222 @@
+body {
+    background-color: black !important;
+}
+
+.container {
+    overflow: hidden;
+}
+
+#ribbon1,
+#ribbon2,
+#ribbon3,
+#ribbon4,
+#ribbon5,
+#ribbon6,
+#ribbon7,
+#ribbon8,
+#ribbon9,
+#ribbon10 {
+    position: absolute;
+}
+
+#ribbon2,
+#ribbon4,
+#ribbon6,
+#ribbon7,
+#ribbon9 {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+#ribbon1,
+#ribbon2,
+#ribbon3,
+#ribbon4 {
+    height: 17.5%;
+    width: 7.5%;
+    top: 20px;
+}
+
+#ribbon5,
+#ribbon6,
+#ribbon9,
+#ribbon10 {
+    height: 15%;
+    width: 5%;
+    top: 10px;
+}
+
+#ribbon7,
+#ribbon8 {
+    height: 20%;
+    width: 15%;
+    top: 20px;
+}
+
+#ribbon1 {
+    left: 140px;
+    z-index: 2;
+}
+
+#ribbon2 {
+    left: 200px;
+}
+
+#ribbon3 {
+    right: 200px;
+}
+
+#ribbon4 {
+    right: 130px;
+    z-index: 2;
+}
+
+#ribbon5 {
+    left: 250px;
+    z-index: 1;
+}
+
+#ribbon6 {
+    left: 145px;
+}
+
+#ribbon7 {
+    right: 120px;
+}
+
+#ribbon8 {
+    left: 120px;
+}
+
+#ribbon9 {
+    right: 250px;
+}
+
+#ribbon10 {
+    right: 150px;
+    z-index: 1;
+}
+
+#heart1,
+#heart2,
+#heart3,
+#heart4,
+#heart5,
+#heart6,
+#heart7,
+#heart8,
+#heart9,
+#heart10 {
+    position: absolute;
+}
+
+
+#heart1, #heart2 {
+    top: 160px;
+}
+
+#heart3, #heart4 {
+    top: 35px;
+}
+
+#heart5, #heart6 { 
+    top: 620px;
+}
+
+#heart7, #heart8 {
+    top: 435px;
+}
+
+#heart1 {
+    left: 370px;
+}
+
+#heart2 {
+    right: 370px;
+}
+
+#heart3 {
+    left: 50px;
+}
+
+#heart4 {
+    right: 50px;
+}
+
+#heart5 {
+    left: 280px;
+}
+
+#heart6 {
+    right: 280px;
+}
+
+#heart7 {
+    left: 50px;
+}
+
+#heart8 {
+    right: 50px;
+}
+
+#plant1,
+#plant2 {
+    height: 180px;
+    width: 160px;
+    bottom: 20px;
+    position: absolute;
+}
+
+#plant1 {
+    left: 45px;
+}
+
+#plant2 {
+    right: 45px;
+    position: absolute;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+
+/* http://thenewcode.com/532/Convert-Images-To-Black-And-White-With-CSS */
+
+.leftheart,
+.rightheart {
+     top: 325px;
+    position: absolute;
+ 
+ /*this code works except in Firefox   
+    -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+    filter: grayscale(100%);
+    filter: url(desaturate.svg#greyscale);*/
+
+}
+
+.leftheart {
+    left: 160px;
+    float: left;
+}
+
+.rightheart {
+    right: 160px;
+    float: right;
+}
+
+#piano {
+    height: 30px;
+    width: 30px;
+}
+
+
+
