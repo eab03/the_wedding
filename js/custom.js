@@ -62,6 +62,10 @@ button2.addEventListener("click", function() {
     if (counter - 1 > 0) {
         counter = counter - 1;
     }
+    if (0 <= counter && counter <= 0) {
+        leftheart.src = "./images/left/heartleft3.png";
+        rightheart.src = "./images/right/heartright3.png";
+    }
     if (1 <= counter && counter <= 4) {
         leftheart.src = "./images/left/heartleft4.png";
         rightheart.src = "./images/right/heartright4.png";
@@ -78,7 +82,11 @@ button2.addEventListener("click", function() {
         leftheart.src = "./images/left/heartleft9.png";
         rightheart.src = "./images/right/heartright9.png";
     }
-    if (17 <= counter && counter <= 22) {
+    if (17 <= counter && counter <= 21) {
+        leftheart.src = "./images/left/heartleft10.png";
+        rightheart.src = "./images/right/heartright10.png";
+    }
+    if (22 <= counter && counter <= 22) {
         leftheart.src = "./images/left/heartleft10.png";
         rightheart.src = "./images/right/heartright10.png";
     }
@@ -90,7 +98,7 @@ button2.addEventListener("click", function() {
         leftheart.src = "./images/left/heartleft6.png";
         rightheart.src = "./images/right/heartright6.png";
     }
-    if (26 <= counter && counter <= 31) {
+    if (26 <= counter && counter <= 30) {
         leftheart.src = "./images/left/heartleft13.png";
         rightheart.src = "./images/right/heartright13.png";
     }
@@ -98,15 +106,20 @@ button2.addEventListener("click", function() {
         leftheart.src = "./images/left/heartleft11.png";
         rightheart.src = "./images/right/heartright11.png";
     }
-    if (32 <= counter && counter <= 35) {
+    if (32 <= counter && counter <= 34) {
         leftheart.src = "./images/left/heartleft7.png";
         rightheart.src = "./images/right/heartright7.png";
     }
+    if (35 <= counter && counter <= 35) {
+        leftheart.src = "./images/left/heartleft11.png";
+        rightheart.src = "./images/right/heartright11.png";
+    }
+
     if (36 <= counter && counter <= 44) {
         leftheart.src = "./images/left/heartleft2.png";
         rightheart.src = "./images/right/heartright2.png";
     }
-    if (45 <= counter && counter <= 50) {
+    if (45 <= counter && counter <= 49) {
         leftheart.src = "./images/left/heartleft1.png";
         rightheart.src = "./images/right/heartright1.png";
     } else {
@@ -119,7 +132,7 @@ button2.addEventListener("click", function() {
 
 button3.addEventListener('click', function() {
     // counter = counter + 1;
-    if (counter + 1 < 50) {
+    if (counter + 1 <= 49) {
         counter = counter + 1;
     }
     if (1 <= counter && counter <= 4) {
@@ -138,9 +151,13 @@ button3.addEventListener('click', function() {
         leftheart.src = "./images/left/heartleft9.png";
         rightheart.src = "./images/right/heartright9.png";
     }
-    if (17 <= counter && counter <= 22) {
+    if (17 <= counter && counter <= 21) {
         leftheart.src = "./images/left/heartleft10.png";
         rightheart.src = "./images/right/heartright10.png";
+    }
+    if (22 <= counter && counter <= 22) {
+        leftheart.src = "./images/left/heartleft12.png";
+        rightheart.src = "./images/right/heartright12.png";
     }
     if (23 <= counter && counter <= 24) {
         leftheart.src = "./images/left/heartleft2.png";
@@ -150,7 +167,7 @@ button3.addEventListener('click', function() {
         leftheart.src = "./images/left/heartleft6.png";
         rightheart.src = "./images/right/heartright6.png";
     }
-    if (26 <= counter && counter <= 31) {
+    if (26 <= counter && counter <= 30) {
         leftheart.src = "./images/left/heartleft13.png";
         rightheart.src = "./images/right/heartright13.png";
     }
@@ -158,9 +175,13 @@ button3.addEventListener('click', function() {
         leftheart.src = "./images/left/heartleft11.png";
         rightheart.src = "./images/right/heartright11.png";
     }
-    if (32 <= counter && counter <= 35) {
+    if (32 <= counter && counter <= 34) {
         leftheart.src = "./images/left/heartleft7.png";
         rightheart.src = "./images/right/heartright7.png";
+    }
+    if (35 <= counter && counter <= 35) {
+        leftheart.src = "./images/left/heartleft11.png";
+        rightheart.src = "./images/right/heartright11.png";
     }
     if (36 <= counter && counter <= 44) {
         leftheart.src = "./images/left/heartleft2.png";
@@ -178,7 +199,7 @@ button3.addEventListener('click', function() {
 //button last
 
 button4.addEventListener("click", function() {
-    counter = 50;
+    counter = 49;
     leftheart.src = "./images/left/heartleft3.png";
     rightheart.src = "./images/right/heartright3.png";
     console.log(counter)
