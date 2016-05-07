@@ -59,7 +59,7 @@ button1.addEventListener("click", function() {
 
 button2.addEventListener("click", function() {
     // counter = counter - 1;
-    if (counter - 1 > 0) {
+    if (counter > 0) {
         counter = counter - 1;
     }
     if (0 <= counter && counter <= 0) {
@@ -132,7 +132,7 @@ button2.addEventListener("click", function() {
 
 button3.addEventListener('click', function() {
     // counter = counter + 1;
-    if (counter + 1 <= 49) {
+    if (counter + 1 <= 50) {
         counter = counter + 1;
     }
     if (1 <= counter && counter <= 4) {
@@ -187,7 +187,7 @@ button3.addEventListener('click', function() {
         leftheart.src = "./images/left/heartleft2.png";
         rightheart.src = "./images/right/heartright2.png";
     }
-    if (45 <= counter && counter <= 50) {
+    if (45 <= counter && counter <= 49) {
         leftheart.src = "./images/left/heartleft1.png";
         rightheart.src = "./images/right/heartright1.png";
     } else {
