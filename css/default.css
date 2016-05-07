@@ -1,18 +1,4 @@
-/* General Demo Style */
-
-
-/*@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-
-@font-face {
-	font-family: 'codropsicons';
-	src:url('../fonts/codropsicons/codropsicons.eot');
-	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
-		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
-		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}*/
+/* Select General Demo Style */
 
 *,
 *:after,
@@ -45,7 +31,7 @@ html {
 body {
     border: 20px solid gray;
     font-family: 'IM Fell English', serif;
-/*    font-family: 'Lato', Calibri, Arial, sans-serif;*/
+    /*    font-family: 'Lato', Calibri, Arial, sans-serif;*/
     color: #777;
     background: #f6f6f6;
 }
@@ -98,65 +84,11 @@ a img {
     text-align: center;
 }
 
-
-/* Main Content */
-
-
-/*.main {
-	max-width: 69em;
-	max-width: 120em;
-}*/
-
-
-/*.column {
-	float: left;
-	width: 75%;
-	padding: 0 2em;
-	min-height: 600px;
-	position: relative;
-}*/
-
-
-/*.column:nth-child(2) {
-	box-shadow: -1px 0 0 rgba(0,0,0,0.1);
-}
-*/
-
-
-/*.column p {
-	font-weight: 300;
-	font-size: 2em;
-	padding: 0;
-	margin: 0;
-	text-align: right;
-	line-height: 1.5;
-}
-*/
-
-
-/*.demo-1 body {
-	color: #87968e;
-	background: #fff2e3;
-}*/
-
-
-/*.demo-1 a {
-	color: #72b890;
-}*/
-
-
-/*.demo-1 .codrops-demos a {
-	background: #72b890;
-	color: #fff;
-}*/
-
 @media screen and (max-width: 1250px) and (min-width: 50px) {
     .bimgs,
     .hearts,
-    .plantimg, 
-    .beadheartimgs 
-
-   /* .music */{
+    .plantimg,
+    .beadheartimgs {
         -webkit-opacity: 0;
         -moz-opacity: 0;
         opacity: 0;
@@ -182,7 +114,7 @@ a img {
 }
 
 @media screen and (max-width: 750px) and (min-width: 50px) {
-       img .image01 {
+    img .image01 {
         margin: auto;
         -webkit-opacity: 1;
         -moz-opacity: 1;
@@ -191,12 +123,12 @@ a img {
         -moz-transition: all 2.5s ease;
         -ms-transition: all 2.5s ease;
         -o-transition: all 2.5s ease;
-        transition: all 2.5s ease;       
+        transition: all 2.5s ease;
     }
 }
 
 
-/*	.codrops-icon span {
-		display: none;
-	}
+/*  .codrops-icon span {
+        display: none;
+    }
 */
