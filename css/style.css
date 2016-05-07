@@ -6,6 +6,69 @@ body {
     overflow: hidden;
 }
 
+#heart1,
+#heart2,
+#heart3,
+#heart4,
+#heart5,
+#heart6,
+#heart7,
+#heart8,
+#heart9,
+#heart10 {
+    position: absolute;
+}
+
+
+#heart1, #heart2 {
+    top: 160px;
+}
+
+#heart3, #heart4 {
+    top: 35px;
+}
+
+#heart5, #heart6 { 
+    top: 620px;
+}
+
+#heart7, #heart8 {
+    top: 435px;
+}
+
+#heart1 {
+    left: 370px;
+}
+
+#heart2 {
+    right: 370px;
+}
+
+#heart3 {
+    left: 50px;
+}
+
+#heart4 {
+    right: 50px;
+}
+
+#heart5 {
+    left: 280px;
+}
+
+#heart6 {
+    right: 280px;
+}
+
+#heart7 {
+    left: 50px;
+}
+
+#heart8 {
+    right: 50px;
+}
+
+
 #ribbon1,
 #ribbon2,
 #ribbon3,
@@ -102,67 +165,7 @@ body {
     z-index: 1;
 }
 
-#heart1,
-#heart2,
-#heart3,
-#heart4,
-#heart5,
-#heart6,
-#heart7,
-#heart8,
-#heart9,
-#heart10 {
-    position: absolute;
-}
 
-
-#heart1, #heart2 {
-    top: 160px;
-}
-
-#heart3, #heart4 {
-    top: 35px;
-}
-
-#heart5, #heart6 { 
-    top: 620px;
-}
-
-#heart7, #heart8 {
-    top: 435px;
-}
-
-#heart1 {
-    left: 370px;
-}
-
-#heart2 {
-    right: 370px;
-}
-
-#heart3 {
-    left: 50px;
-}
-
-#heart4 {
-    right: 50px;
-}
-
-#heart5 {
-    left: 280px;
-}
-
-#heart6 {
-    right: 280px;
-}
-
-#heart7 {
-    left: 50px;
-}
-
-#heart8 {
-    right: 50px;
-}
 
 #plant1,
 #plant2 {
@@ -205,12 +208,12 @@ body {
 }
 
 .leftheart {
-    left: 160px;
+    left: 180px;
     float: left;
 }
 
 .rightheart {
-    right: 160px;
+    right: 180px;
     float: right;
 }
 
