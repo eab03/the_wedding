@@ -31,7 +31,7 @@ body {
 
 #heart5,
 #heart6 {
-    top: 620px;
+    top: 650px;
 }
 
 #heart7,
@@ -40,11 +40,11 @@ body {
 }
 
 #heart1 {
-    left: 370px;
+    left: 380px;
 }
 
 #heart2 {
-    right: 370px;
+    right: 380px;
 }
 
 #heart3 {
@@ -56,11 +56,11 @@ body {
 }
 
 #heart5 {
-    left: 280px;
+    left: 270px;
 }
 
 #heart6 {
-    right: 280px;
+    right: 270px;
 }
 
 #heart7 {
@@ -70,6 +70,33 @@ body {
 #heart8 {
     right: 50px;
 }
+
+#heart1:hover,
+#heart2:hover,
+#heart3:hover,
+#heart4:hover,
+#heart7:hover,
+#heart8:hover {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    width: 40px;
+    height: 40px;
+}
+
+#heart5:hover,
+#heart6:hover {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    width: 60px;
+    height: 60px;
+}
+
 
 #ribbon1,
 #ribbon2,
@@ -195,7 +222,7 @@ body {
 
 .leftheart,
 .rightheart {
-    top: 325px;
+    top: 350px;
     position: absolute;
     /*this code works except in Firefox   
     -webkit-filter: grayscale(1);
